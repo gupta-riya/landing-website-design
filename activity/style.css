@@ -222,3 +222,166 @@ body{
 }
 
 /*  section 3 */
+
+#section-3
+{
+    width:100vw;
+    height:200vh;
+    background-color: #F6F6F6;
+}
+
+
+.plan-head-container{
+
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5rem;
+    margin-bottom: 4rem;
+
+}
+
+.heading3{
+
+    
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height:3rem;
+    width: 50%;
+}
+
+.subheading3{
+
+    font-size: 20px;
+    text-align: center;
+    line-height:2rem;
+    margin-bottom: 3rem;
+    width: 50%;
+}
+
+
+
+.plans-container{
+
+
+    width: 100vw;
+    height: 159vh;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.plan-container{
+
+
+    width: 30%;
+    height: 130vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid rgb(212, 207, 207);
+    border-radius: 10px;
+}
+
+.plan-image{
+
+    height: 35%;
+    width:100%;
+    
+    padding-top: 4rem;
+    padding-left: 4.5rem;
+}
+
+.plan-img{
+    
+    width: 150px;
+    height: 150px;
+
+}
+
+.plan-name{
+
+    height: 5%;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+
+}
+
+.plan-feature{
+
+    height: 40%;
+    width:100%;
+    padding-top: 2rem;
+}
+
+
+.list-item2{
+
+    
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+
+}
+
+.check-logo2{
+
+    height:1rem;
+    width: 1rem;
+    margin-right: 1rem;
+
+}
+
+
+
+.plan-price{
+
+    height: 5%;
+    width:100%;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.select-plan{
+
+    margin-top: 1rem;
+    margin-left: 4rem;
+    padding-top: 0.4rem;
+    width: 60%;
+    height: 5%;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid red;
+    color:red;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+
+
+.active-plan{
+
+    background-color: red;
+    color: white;
+    box-shadow: 0px 5px 30px 1px #F53838 ;
+}
+
+.active-plan-container{
+    border-color: red;
+}
+
+
