@@ -163,12 +163,92 @@ body{
     height:400px;
 }
 
+/*  ele btw page 1 and 2 */
+
+.customer-report
+{
+    position: absolute;
+    top: 664.55px;
+    left: 90px;
+    z-index: 2;
+    height:200px;
+    width: 1140px;
+    background-color: white;
+    box-shadow: 0px 5px 25px 4px rgb(231, 226, 226) ;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+
+}
+
+.report-1, .report-2{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.report-3{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.rep-icon
+{
+    width: 30%;
+    height: 30%;
+
+}
+
+.rep-img
+{
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.rep-info
+{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-count{
+
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.customer-desc
+{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
 /* section 2 */
 
 #section-2
 {
     width:100vw;
-    height:100vh;
+    height:150vh;
+    padding-top: 20rem;
 
 }
 
