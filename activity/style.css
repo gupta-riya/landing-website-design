@@ -150,3 +150,75 @@ body{
     width:550px;
     height:400px;
 }
+
+/* section 2 */
+
+#section-2
+{
+    width:100vw;
+    height:100vh;
+
+}
+
+
+.main-container{
+    width: 100vw;
+    height:100vh;
+
+    display:flex;
+
+}
+
+.home-image2
+{
+    width:50%;
+    height: 100%;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+
+.home-img2{
+    height: 450px;
+    width:550px;
+}
+
+.description-2{
+
+    width: 50%;
+    height: 100%;
+    padding-top: 6rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+
+}
+
+.heading2{
+
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height:3rem;
+}
+
+.subheading2{
+    line-height:2rem;
+    margin-bottom: 3rem;
+}
+
+.list-item{
+
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.check-logo{
+
+    height:1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+/*  section 3 */
