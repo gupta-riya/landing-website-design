@@ -4,11 +4,23 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+   
 }
 
+html{
+        
+    overflow: auto;
+   
+}
+
+html::-webkit-scrollbar{
+    display: none;
+} 
 body{
     background-color: white;
+
 }
+
 
 #section-1{
 
@@ -612,4 +624,109 @@ body{
     height: 70%;
     width: 100%;
     line-height: 1.5rem;
+}
+
+
+/*  section 6 */
+
+#section-6
+{
+    width:100vw;
+    height:100vh;
+    background-color: #F6F6F6;
+    display: flex;
+    padding-top: 10rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+
+
+.company-info{
+
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.company-logo{
+
+    height: 20%;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.foot-img{
+
+    height: 3rem;
+    width: 10rem;
+
+}
+
+.company-description
+{
+    height: 30%;
+    width: 100%;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    
+}
+
+.social-contact
+{
+    height: 30%;
+    display: flex;
+}
+
+.social{
+    width: 30%;
+    height: 100%;
+   
+}
+
+
+.year{
+    height: 10%;
+    font-size: 24px;
+    color: gray;
+}
+
+
+.products-info{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14rem;
+}
+
+.product,.engage,.earn-money{
+
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.earn-money{
+    height: 50%;
+}
+
+.foot-header
+{
+    height: 15%;
+    width:100%;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.services{
+    height: 10%;
+    width:100%;
+    margin-bottom: 1.5rem;
+    color: gray;
 }
